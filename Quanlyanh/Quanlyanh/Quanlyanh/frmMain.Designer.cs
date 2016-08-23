@@ -54,7 +54,6 @@
             this.tsmThemthanhvien.Name = "tsmThemthanhvien";
             this.tsmThemthanhvien.Size = new System.Drawing.Size(109, 20);
             this.tsmThemthanhvien.Text = "Thêm thành viên";
-           // this.tsmThemthanhvien.Click += new System.EventHandler(this.tsmThemthanhvien_Click);
             // 
             // thôngTinToolStripMenuItem
             // 
@@ -71,6 +70,7 @@
             this.btnThuvienanh.TabIndex = 3;
             this.btnThuvienanh.Text = "Thư viện ảnh";
             this.btnThuvienanh.UseVisualStyleBackColor = false;
+            this.btnThuvienanh.Click += new System.EventHandler(this.btnThuvienanh_Click);
             // 
             // btnDSthanhvien
             // 

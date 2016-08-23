@@ -18,3 +18,13 @@ C:\Users\Nguyen\Downloads\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\Quanlyanh.Prop
 C:\Users\Nguyen\Downloads\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\Quanlyanh.csproj.GenerateResource.Cache
 C:\Users\Nguyen\Downloads\Quanlyanh\Quanlyanh\Quanlyanh\bin\Debug\Quanlyanh.exe
 C:\Users\Nguyen\Downloads\Quanlyanh\Quanlyanh\Quanlyanh\bin\Debug\Quanlyanh.pdb
+C:\Users\Nguyen\Desktop\Quanlynhiepanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\bin\Debug\Quanlyanh.exe.config
+C:\Users\Nguyen\Desktop\Quanlynhiepanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\Quanlyanh.exe
+C:\Users\Nguyen\Desktop\Quanlynhiepanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\Quanlyanh.pdb
+C:\Users\Nguyen\Desktop\Quanlynhiepanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\bin\Debug\Quanlyanh.exe
+C:\Users\Nguyen\Desktop\Quanlynhiepanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\bin\Debug\Quanlyanh.pdb
+C:\Users\Nguyen\Desktop\Quanlynhiepanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\Quanlyanh.csprojResolveAssemblyReference.cache
+C:\Users\Nguyen\Desktop\Quanlynhiepanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\Quanlyanh.frmDanhsachthanhvien.resources
+C:\Users\Nguyen\Desktop\Quanlynhiepanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\Quanlyanh.frmMain.resources
+C:\Users\Nguyen\Desktop\Quanlynhiepanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\Quanlyanh.Properties.Resources.resources
+C:\Users\Nguyen\Desktop\Quanlynhiepanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\Quanlyanh.csproj.GenerateResource.Cache

@@ -47,5 +47,11 @@ namespace Quanlyanh
         {
 
         }
+
+        private void btnThuvienanh_Click(object sender, EventArgs e)
+        {
+            frmThuvienanh tv = new frmThuvienanh();
+            tv.ShowDialog();
+        }
     }
 }
