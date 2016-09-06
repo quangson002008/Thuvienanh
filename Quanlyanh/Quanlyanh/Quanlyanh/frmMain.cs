@@ -53,5 +53,17 @@ namespace Quanlyanh
             frmThuvienanh tv = new frmThuvienanh();
             tv.ShowDialog();
         }
+
+        private void báoCáoThànhViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmRptThanhvien bc = new FrmRptThanhvien();
+            bc.ShowDialog();
+        }
+
+        private void thôngTinToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmThongtin tt = new FrmThongtin();
+            tt.ShowDialog();
+        }
     }
 }

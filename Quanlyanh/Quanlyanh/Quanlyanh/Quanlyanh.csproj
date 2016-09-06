@@ -32,9 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAlbum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlbum.Designer.cs">
+      <DependentUpon>frmAlbum.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDanhsachthanhvien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -57,6 +66,18 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmRptThanhvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRptThanhvien.Designer.cs">
+      <DependentUpon>FrmRptThanhvien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmThongtin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmThongtin.Designer.cs">
+      <DependentUpon>FrmThongtin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="frmThuvienanh.cs">
@@ -65,11 +86,32 @@
     <Compile Include="frmThuvienanh.Designer.cs">
       <DependentUpon>frmThuvienanh.cs</DependentUpon>
     </Compile>
+    <Compile Include="Thanhvien.cs">
+      <DependentUpon>Thanhvien.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Thanhvien.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Thanhvien.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAlbum.resx">
+      <DependentUpon>frmAlbum.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDanhsachthanhvien.resx">
       <DependentUpon>frmDanhsachthanhvien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRptThanhvien.resx">
+      <DependentUpon>FrmRptThanhvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmThongtin.resx">
+      <DependentUpon>FrmThongtin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThuvienanh.resx">
+      <DependentUpon>frmThuvienanh.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,6 +123,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="rptThanhvien.rdlc" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -90,6 +133,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Thanhvien.xsc">
+      <DependentUpon>Thanhvien.xsd</DependentUpon>
+    </None>
+    <None Include="Thanhvien.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Thanhvien.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Thanhvien.xss">
+      <DependentUpon>Thanhvien.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -99,6 +153,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Prev.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
