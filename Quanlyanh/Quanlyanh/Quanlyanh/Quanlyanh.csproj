@@ -72,6 +72,12 @@
     <Compile Include="FrmRptThanhvien.Designer.cs">
       <DependentUpon>FrmRptThanhvien.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmThemthanhvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemthanhvien.Designer.cs">
+      <DependentUpon>frmThemthanhvien.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmThongtin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,6 +112,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmRptThanhvien.resx">
       <DependentUpon>FrmRptThanhvien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThemthanhvien.resx">
+      <DependentUpon>frmThemthanhvien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmThongtin.resx">
       <DependentUpon>FrmThongtin.cs</DependentUpon>

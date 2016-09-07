@@ -51,12 +51,14 @@
             this.menuStrip1.Size = new System.Drawing.Size(746, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // tsmThemthanhvien
             // 
             this.tsmThemthanhvien.Name = "tsmThemthanhvien";
             this.tsmThemthanhvien.Size = new System.Drawing.Size(109, 20);
             this.tsmThemthanhvien.Text = "Thêm thành viên";
+            this.tsmThemthanhvien.Click += new System.EventHandler(this.tsmThemthanhvien_Click);
             // 
             // thôngTinToolStripMenuItem
             // 

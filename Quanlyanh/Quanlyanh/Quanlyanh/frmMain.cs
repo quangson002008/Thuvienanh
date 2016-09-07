@@ -37,11 +37,7 @@ namespace Quanlyanh
 
         }
 
-        //private void tsmThemthanhvien_Click(object sender, EventArgs e)
-        //{
-        //    frmThemthanhvien frt = new frmThemthanhvien();
-        //    frt.ShowDialog();
-        //}
+       
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -64,6 +60,17 @@ namespace Quanlyanh
         {
             FrmThongtin tt = new FrmThongtin();
             tt.ShowDialog();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void tsmThemthanhvien_Click(object sender, EventArgs e)
+        {
+            frmThemthanhvien tv = new frmThemthanhvien();
+            tv.ShowDialog();
         }
     }
 }

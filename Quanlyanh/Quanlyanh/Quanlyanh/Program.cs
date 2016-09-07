@@ -16,7 +16,7 @@ namespace Quanlyanh
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmDanhsachthanhvien ());
+            Application.Run(new frmMain ());
         }
     }
 }
