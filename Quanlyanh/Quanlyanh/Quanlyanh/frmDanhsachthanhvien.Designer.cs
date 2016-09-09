@@ -43,10 +43,6 @@
             this.txtSodienthoai = new System.Windows.Forms.TextBox();
             this.txtHo = new System.Windows.Forms.TextBox();
             this.txtMathanhvien = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.btnTruoc = new System.Windows.Forms.Button();
-            this.btnSau = new System.Windows.Forms.Button();
             this.btnLuu = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDsthanhvien)).BeginInit();
@@ -193,44 +189,6 @@
             this.txtMathanhvien.Size = new System.Drawing.Size(100, 20);
             this.txtMathanhvien.TabIndex = 3;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(39, 470);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(636, 470);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "button1";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // btnTruoc
-            // 
-            this.btnTruoc.AllowDrop = true;
-            this.btnTruoc.Image = global::Quanlyanh.Properties.Resources.Prev;
-            this.btnTruoc.Location = new System.Drawing.Point(255, 454);
-            this.btnTruoc.Name = "btnTruoc";
-            this.btnTruoc.Size = new System.Drawing.Size(97, 39);
-            this.btnTruoc.TabIndex = 6;
-            this.btnTruoc.UseVisualStyleBackColor = true;
-            // 
-            // btnSau
-            // 
-            this.btnSau.Image = global::Quanlyanh.Properties.Resources.Next1;
-            this.btnSau.Location = new System.Drawing.Point(358, 454);
-            this.btnSau.Name = "btnSau";
-            this.btnSau.Size = new System.Drawing.Size(92, 39);
-            this.btnSau.TabIndex = 6;
-            this.btnSau.UseVisualStyleBackColor = true;
-            this.btnSau.Click += new System.EventHandler(this.btnSau_Click);
-            // 
             // btnLuu
             // 
             this.btnLuu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
@@ -246,9 +204,11 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.Location = new System.Drawing.Point(505, 219);
+            this.btnThoat.Image = global::Quanlyanh.Properties.Resources.Exit;
+            this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThoat.Location = new System.Drawing.Point(487, 204);
             this.btnThoat.Name = "btnThoat";
-            this.btnThoat.Size = new System.Drawing.Size(165, 36);
+            this.btnThoat.Size = new System.Drawing.Size(136, 51);
             this.btnThoat.TabIndex = 6;
             this.btnThoat.Text = "Thoát";
             this.btnThoat.UseVisualStyleBackColor = true;
@@ -260,11 +220,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(724, 514);
             this.Controls.Add(this.dgvDsthanhvien);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.btnTruoc);
-            this.Controls.Add(this.btnSau);
             this.Controls.Add(this.btnThoat);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnLuu);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
@@ -296,10 +252,6 @@
         private System.Windows.Forms.TextBox txtHo;
         private System.Windows.Forms.TextBox txtMathanhvien;
         private System.Windows.Forms.Button btnLuu;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnTruoc;
-        private System.Windows.Forms.Button btnSau;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button btnThoat;
     }
 }

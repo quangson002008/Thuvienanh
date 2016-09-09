@@ -33,6 +33,7 @@
             this.thôngTinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.iNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoThànhViênToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnThoat = new System.Windows.Forms.Button();
             this.btnThuvienanh = new System.Windows.Forms.Button();
             this.btnDSthanhvien = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -82,12 +83,26 @@
             this.báoCáoThànhViênToolStripMenuItem.Text = "Báo cáo thành viên";
             this.báoCáoThànhViênToolStripMenuItem.Click += new System.EventHandler(this.báoCáoThànhViênToolStripMenuItem_Click);
             // 
+            // btnThoat
+            // 
+            this.btnThoat.Image = global::Quanlyanh.Properties.Resources.Exit;
+            this.btnThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnThoat.Location = new System.Drawing.Point(604, 313);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(108, 42);
+            this.btnThoat.TabIndex = 4;
+            this.btnThoat.Text = "Thoát";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
             // btnThuvienanh
             // 
             this.btnThuvienanh.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnThuvienanh.Image = global::Quanlyanh.Properties.Resources.Picture;
+            this.btnThuvienanh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnThuvienanh.Location = new System.Drawing.Point(575, 143);
             this.btnThuvienanh.Name = "btnThuvienanh";
-            this.btnThuvienanh.Size = new System.Drawing.Size(115, 55);
+            this.btnThuvienanh.Size = new System.Drawing.Size(137, 55);
             this.btnThuvienanh.TabIndex = 3;
             this.btnThuvienanh.Text = "Thư viện ảnh";
             this.btnThuvienanh.UseVisualStyleBackColor = false;
@@ -96,9 +111,11 @@
             // btnDSthanhvien
             // 
             this.btnDSthanhvien.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnDSthanhvien.Location = new System.Drawing.Point(575, 236);
+            this.btnDSthanhvien.Image = global::Quanlyanh.Properties.Resources.Modify;
+            this.btnDSthanhvien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDSthanhvien.Location = new System.Drawing.Point(537, 233);
             this.btnDSthanhvien.Name = "btnDSthanhvien";
-            this.btnDSthanhvien.Size = new System.Drawing.Size(115, 54);
+            this.btnDSthanhvien.Size = new System.Drawing.Size(175, 56);
             this.btnDSthanhvien.TabIndex = 1;
             this.btnDSthanhvien.Text = "Danh Sách Thành Viên";
             this.btnDSthanhvien.UseVisualStyleBackColor = false;
@@ -121,6 +138,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(746, 443);
+            this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnThuvienanh);
             this.Controls.Add(this.btnDSthanhvien);
             this.Controls.Add(this.pictureBox1);
@@ -147,6 +165,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ToolStripMenuItem iNToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem báoCáoThànhViênToolStripMenuItem;
+        private System.Windows.Forms.Button btnThoat;
     }
 }
 

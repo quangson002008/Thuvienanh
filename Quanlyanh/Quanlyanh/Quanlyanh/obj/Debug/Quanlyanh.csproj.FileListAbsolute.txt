@@ -74,3 +74,5 @@ C:\Users\Rin\Desktop\Thuvienanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Deb
 C:\Users\Rin\Desktop\Thuvienanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\Quanlyanh.csproj.GenerateResource.Cache
 C:\Users\Rin\Desktop\Thuvienanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\RdlCompile.cache
 C:\Users\Rin\Desktop\Thuvienanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\RdlCompile.compiled
+C:\Users\muoihong\Desktop\Quanlynhiepanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\Quanlyanh.frmThemthanhvien.resources
+C:\Users\muoihong\Desktop\Quanlynhiepanh\Thuvienanh\Quanlyanh\Quanlyanh\Quanlyanh\obj\Debug\Quanlyanh.FrmThongtin.resources

@@ -98,7 +98,7 @@ namespace Quanlyanh
         {
             DialogResult t = MessageBox.Show("Bạn có muốn thoát chương trình?", "Thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (t == DialogResult.Yes)
-                Application.Exit();
+                this.Close();
 
         }
 
@@ -157,10 +157,7 @@ namespace Quanlyanh
                                             
         }
 
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
@@ -172,6 +169,11 @@ namespace Quanlyanh
             da.DeleteCommand = cmd;
             da.Update(dt);
             MessageBox.Show("Lưu thông tin thành công");
+        }
+
+        private void txtNgayluu_ValueChanged(object sender, EventArgs e)
+        {
+
         }
 
         //private void button4_Click(object sender, EventArgs e)

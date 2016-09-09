@@ -72,5 +72,12 @@ namespace Quanlyanh
             frmThemthanhvien tv = new frmThemthanhvien();
             tv.ShowDialog();
         }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            DialogResult t = MessageBox.Show("Bạn có thực sự muốn thoát ?", "Thongbao", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (t == DialogResult.Yes)
+                Application.Exit();
+        }
     }
 }

@@ -41,12 +41,14 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtHo = new System.Windows.Forms.TextBox();
             this.txtMathanhvien = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnThemthutuc = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.btnThemthutuc);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label1);
@@ -63,7 +65,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.Red;
             this.groupBox1.Location = new System.Drawing.Point(31, 39);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(539, 389);
+            this.groupBox1.Size = new System.Drawing.Size(536, 424);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thêm thành viên";
@@ -95,7 +97,7 @@
             this.txtEmail.Location = new System.Drawing.Point(228, 258);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(100, 20);
-            this.txtEmail.TabIndex = 1;
+            this.txtEmail.TabIndex = 5;
             // 
             // label2
             // 
@@ -113,7 +115,7 @@
             this.txtTen.Location = new System.Drawing.Point(228, 133);
             this.txtTen.Name = "txtTen";
             this.txtTen.Size = new System.Drawing.Size(164, 20);
-            this.txtTen.TabIndex = 1;
+            this.txtTen.TabIndex = 2;
             // 
             // label3
             // 
@@ -131,7 +133,7 @@
             this.txtDiachi.Location = new System.Drawing.Point(228, 212);
             this.txtDiachi.Name = "txtDiachi";
             this.txtDiachi.Size = new System.Drawing.Size(164, 20);
-            this.txtDiachi.TabIndex = 1;
+            this.txtDiachi.TabIndex = 4;
             // 
             // label4
             // 
@@ -149,7 +151,7 @@
             this.txtSDT.Location = new System.Drawing.Point(228, 173);
             this.txtSDT.Name = "txtSDT";
             this.txtSDT.Size = new System.Drawing.Size(164, 20);
-            this.txtSDT.TabIndex = 1;
+            this.txtSDT.TabIndex = 3;
             // 
             // label5
             // 
@@ -175,7 +177,21 @@
             this.txtMathanhvien.Location = new System.Drawing.Point(228, 60);
             this.txtMathanhvien.Name = "txtMathanhvien";
             this.txtMathanhvien.Size = new System.Drawing.Size(100, 20);
-            this.txtMathanhvien.TabIndex = 1;
+            this.txtMathanhvien.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Image = global::Quanlyanh.Properties.Resources.Exit;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.Location = new System.Drawing.Point(342, 319);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(153, 50);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Thoát";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnThemthutuc
             // 
@@ -185,7 +201,7 @@
             this.btnThemthutuc.ForeColor = System.Drawing.Color.Green;
             this.btnThemthutuc.Image = global::Quanlyanh.Properties.Resources.Add;
             this.btnThemthutuc.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThemthutuc.Location = new System.Drawing.Point(208, 314);
+            this.btnThemthutuc.Location = new System.Drawing.Point(73, 319);
             this.btnThemthutuc.Name = "btnThemthutuc";
             this.btnThemthutuc.Size = new System.Drawing.Size(184, 50);
             this.btnThemthutuc.TabIndex = 3;
@@ -225,5 +241,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtHo;
         private System.Windows.Forms.TextBox txtMathanhvien;
+        private System.Windows.Forms.Button button1;
     }
 }

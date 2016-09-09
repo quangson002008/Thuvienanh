@@ -85,6 +85,13 @@ namespace Quanlyanh
             }
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DialogResult t = MessageBox.Show("Bạn có muốn thoát chương trình?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (t == DialogResult.Yes)
+                this.Close();
+        }
         //private void btnThem_Click(object sender, EventArgs e)
 //        {
 //            Connect();

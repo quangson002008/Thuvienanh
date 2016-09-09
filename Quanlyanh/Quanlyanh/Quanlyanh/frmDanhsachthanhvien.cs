@@ -102,9 +102,9 @@ namespace Quanlyanh
             cmd = new SqlCommand(del, cn);
             cmd.Parameters.Add("@mathanhvien", SqlDbType.NChar, 5, "Mathanhvien");
             da.DeleteCommand = cmd;
-            Refresh();
+        
          
-           da.Update(dt);
+            da.Update(dt);
             
            
 
@@ -113,19 +113,16 @@ namespace Quanlyanh
             cmd = new SqlCommand(upd, cn);
             cmd.Parameters.Add("@mathanhvien",SqlDbType.NChar, 5, "Mathanhvien");
             da.UpdateCommand = cmd;
+
            // MessageBox.Show("Cập nhật thông tin thành công");
-            Refresh();
+   
             da.Update(dt);
         
 
            
         }
 
-        private void btnSau_Click(object sender, EventArgs e)
-        {
-            
-            
-        }
+       
 
         private void btnThoat_Click(object sender, EventArgs e)
         {

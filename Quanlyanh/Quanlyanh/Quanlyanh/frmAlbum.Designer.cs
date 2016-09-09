@@ -99,9 +99,11 @@
             // 
             // btnDong
             // 
-            this.btnDong.Location = new System.Drawing.Point(289, 128);
+            this.btnDong.Image = global::Quanlyanh.Properties.Resources.Exit;
+            this.btnDong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDong.Location = new System.Drawing.Point(277, 128);
             this.btnDong.Name = "btnDong";
-            this.btnDong.Size = new System.Drawing.Size(90, 43);
+            this.btnDong.Size = new System.Drawing.Size(102, 43);
             this.btnDong.TabIndex = 5;
             this.btnDong.Text = "Đóng";
             this.btnDong.UseVisualStyleBackColor = true;
